@@ -1,0 +1,31 @@
+
+@font-face {
+    font-family: 'NEWS_TITLE'; /*a name to be used later*/
+    src: url('fonts/Belgrano-Regular.ttf'); /*URL to font*/
+}
+
+#footer {
+    position: fixed;
+    bottom: 45px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.prompt {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-family: "NEWS_TITLE";
+    left: 300px;
+    top: 167.5px;
+    font-size: 30px;
+    color: white;
+}
+
+.prompt p {
+    position: absolute;
+    top: -50px;
+    left: -50px;
+}
+
+#wrapper {height: 500px; position:relative;}
+#bottomDweller {position: absolute; bottom:0;}
